@@ -25,7 +25,10 @@ namespace KID
         /// <param name="vbb">µêÀÀ«ö¶sµù¥U¥Îªº°Ñ¼Æ</param>
         private void PlayBiteAnimation(VirtualButtonBehaviour vbb)
         {
-            print(vbb.name);
+            if (vbb.VirtualButtonName == "¨³²rÀs«r«r")
+            {
+                aniTarget.SetTrigger("«r«rÄ²µo");
+            }
         }
     }
 }

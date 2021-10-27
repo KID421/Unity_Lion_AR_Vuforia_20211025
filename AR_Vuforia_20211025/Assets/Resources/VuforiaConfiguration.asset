@@ -24,7 +24,7 @@ MonoBehaviour:
     modelTargetRecoWhileExtendedTracked: 1
     shareRecordingsInITunes: 0
     version: 10.2.5
-    eulaAcceptedVersions: '{"Values":["8.5","9.4","8.1","9.5","10.0","10.2"]}'
+    eulaAcceptedVersions: '{"Values":["8.5","9.4","8.1","9.5","10.0","10.2","0.0","7.1","7.2","7.5","7.7","8.0","8.6","9.2","9.6"]}'
   database:
     disableModelExtraction: 0
   shaders:
@@ -36,8 +36,8 @@ MonoBehaviour:
     videoBackgroundEnabled: 1
   deviceTracker:
     autoStartTracker: 1
-    arcoreRequirement: 1
-    autoImportArcore: 1
+    arcoreRequirement: 0
+    autoImportArcore: 0
   playmode:
     mSequencePath: 
     playModeType: 0
