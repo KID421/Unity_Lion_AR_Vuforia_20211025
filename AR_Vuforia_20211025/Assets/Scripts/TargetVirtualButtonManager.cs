@@ -1,5 +1,5 @@
 using UnityEngine;
-using Vuforia;
+//using Vuforia;
 
 namespace KID
 {
@@ -8,6 +8,7 @@ namespace KID
     /// </summary>
     public class TargetVirtualButtonManager : MonoBehaviour
     {
+        /*
         [Header("要監聽的虛擬按鈕")]
         public VirtualButtonBehaviour vbbBite;
         [Header("要控制的動畫元件")]
@@ -30,5 +31,6 @@ namespace KID
                 aniTarget.SetTrigger("咬咬觸發");
             }
         }
+        */
     }
 }

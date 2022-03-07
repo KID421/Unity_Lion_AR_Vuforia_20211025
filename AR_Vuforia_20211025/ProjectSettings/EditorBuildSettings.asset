@@ -8,4 +8,5 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/\u5834\u666F/AR Vuforia \u5834\u666F.unity"
     guid: b290290d704056b46a17ec21c362f996
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 757c823029ab15a4a914cf8707e437d5, type: 2}
